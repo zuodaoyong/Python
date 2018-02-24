@@ -1,8 +1,9 @@
-import Animal
+from Animal import Animal
 
 
 class Dog(Animal):
-    def __init__(self):
-        Animal.__init__(self)
+   def aa(self):
+       print("aaa")
 dog=Dog()
 dog.run()
+dog.aa()
